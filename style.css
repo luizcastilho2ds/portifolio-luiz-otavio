@@ -1,7 +1,7 @@
 header{
     text-align: center;
     top: 300px;
-    background-color: rgba(14, 9, 17, 0.758);
+    background-color: antiquewhite;
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,12 +11,25 @@ h1, h2{
     text-decoration: none
 }
 li{
-    margin: 10px 0;
-    padding: 10px 0;
-    background-color: whitesmoke;
+    margin: 25px auto;
+    padding: 10px ;
+    width: 30%;
+    background-color: antiquewhite;
     text-align: center;
     text-transform: uppercase;
     color: black;
     font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    text-decoration: none;
+    background-color: antiquewhite;
+}
+
+#kkk {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
