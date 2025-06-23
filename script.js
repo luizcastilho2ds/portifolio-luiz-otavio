@@ -1,19 +1,25 @@
-function contar() {
-    let mostraresultado = document.getElementById(`resultado`);
+let  mostraresultado = document.querySelector('#resultado');
+     let inscritos =0;
 
-    mostraresultado.innerHTML = `<p><b> Contando de 1 até 10</p></b>`
+function botao() {
 
-    let contador = 10;
+     inscritos++;
 
-    while (contador >= 1 ){
-        let numero = contador % 2;
-        
-        if (numero == 0) {
-            mostraresultado.innerHTML += `<mark>${contador}<mark/> &#10037;`;
-        } else {
-            mostraresultado.innerHTML += `${contador}&#10037;`;
-        }
-        contador-=1;
-    }
     
-}
+     mostraresultado.innerHTML = `<p> Numero de click: ${inscritos}</p>`;
+    
+     if(inscritos >=10){
+         mostraresultado.innerHTML += (`(◕‿◕)`)
+
+
+       }
+     }
+     function botaozero() {
+
+     inscritos++;
+
+    
+     mostraresultado.innerHTML = `<p> Numero de click: ${inscritos=0}</p>`;
+
+     
+     }
