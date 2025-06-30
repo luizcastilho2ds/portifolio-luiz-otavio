@@ -1,10 +1,12 @@
-let n1;
-let contador=0;
 let mostraresultado = document.getElementById(`resultado`);
+function calcular(){
 
-n1 = Number(window.prompt('digite um número:'))
+let n1 = Number(window.prompt('digite um número para calcular a tabuada:'));
+let contador = 1;
 
-while (contador <= n1*10){
-    mostraresultado.innerHTML += `${contador},`;
-    contador += n1
+mostraresultado.innerHTML = `<p><b>TABUADA</p></b>`;
+while (contador <= 10){
+    mostraresultado.innerHTML += `${n1}  X  ${contador}  =  ${n1*contador}<br>`;
+    contador++;
+}
 }
